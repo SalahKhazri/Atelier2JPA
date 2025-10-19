@@ -79,11 +79,9 @@ git clone https://github.com/SalahKhazri/MVC2JPA.git
 
 3. **Modifier la connexion JPA (persistence.xml) avec tes identifiants MySQL :**
 ```
-
 <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mvc2jpa"/>
 <property name="jakarta.persistence.jdbc.user" value="root"/>
 <property name="jakarta.persistence.jdbc.password" value="password"/>
-
 ```
 
 4. **Compiler et déployer sur WildFly :**
@@ -116,6 +114,7 @@ http://localhost:8080/MVC2JPA-1.0-SNAPSHOT/vitrine
       - Vider le panier → bouton 🗑️
 
       - Continuer les achats → bouton ←
-      - 
+
       - Confirmer la commande → bouton ✅
   
+
